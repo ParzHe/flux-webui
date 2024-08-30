@@ -308,7 +308,7 @@ with gr.Blocks(css=css, title="Flux-WebUI") as demo:
                 label="模型（Model）",
                 value= "../fshare/models/black-forest-labs/FLUX.1-dev",
                 choices=[
-                    "../fshare/models/black-forest-labs/FLUX.1-dev"
+                    "../fshare/models/black-forest-labs/FLUX.1-dev",
                     "../fshare/models/black-forest-labs/FLUX.1-schnell",
                     "../fshare/models/sayakpaul/FLUX.1-merged",
                 ],
